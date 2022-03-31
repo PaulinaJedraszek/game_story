@@ -1,0 +1,14 @@
+user_name = str(input("Give me your name, please\n"))
+print(f"Hello {user_name.title()}")
+
+print("I would like take you to quick ride in beautiful place like Cornwall.\n"
+      "We pass meadows, grazing sheep and we can see crossroads.\n"
+      "You have to get a choice which side you prefer.")
+
+user = int(input("Press '1' to turn left, press '2' to turn right\n"))
+if user == 1:
+    print("Awesome choice, you will see wonderful beach's landscape")
+elif user == 2:
+    print("I'm sorry, you choose way through the dark forest.")
+else:
+    print("You put the wrong data")
